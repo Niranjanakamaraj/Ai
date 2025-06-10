@@ -1,0 +1,35 @@
+📄 Project Description: Emotion Detection from Facial Expressions
+Overview:
+This project aims to detect human emotions from facial expressions using a Convolutional Neural Network (CNN). It leverages the FER-2013 dataset and performs real-time predictions via webcam using OpenCV and Streamlit.
+
+Dataset Details:
+
+Source: Kaggle FER-2013
+
+Format: CSV file with 48x48 grayscale face images
+
+Labels: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
+
+Model Architecture:
+
+Input Layer: 48x48 grayscale images
+
+Hidden Layers: Convolution, MaxPooling, Dropout
+
+Output: 7 Softmax activated neurons (for 7 emotions)
+
+Key Tools Used:
+
+Keras/TensorFlow for CNN Model
+
+OpenCV for Face Detection
+
+Streamlit for Web Deployment
+
+Output:
+The app displays real-time emotion predictions with bounding boxes around detected faces, updating live from the webcam.
+
+Deployment:
+The app runs on local systems using Streamlit. It can be converted into a mobile-compatible Progressive Web App (PWA).
+
+GitHub Link:https://github.com/Niranjanakamaraj/Ai/new/main
